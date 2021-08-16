@@ -15,6 +15,7 @@
 - express [aqui](https://expressjs.com/pt-br/)
 - yaml [aqui](https://www.npmjs.com/package/js-yaml)
 - mysql [aqui](https://www.npmjs.com/package/mysql)
+- xampp [aqui](https://www.apachefriends.org/pt_br/index.html)
 
 # Instalação
 
@@ -27,6 +28,7 @@
     - usuario(ID, LOGIN, SENHA)
     - receitas(RECEITA_ID, RECEITA_NOME, RECEITA_DESCRICAO, id_fk_usuario(Foreign Key da tabela usuario))
     - ingrediente(ID_INGREDIENTE, NOME_INGREDIENTE, fk_id_receitas(Foreign Key da tabela receitas))
+- Utilizar o xampp para facil instalação, acessando o phpmyadmin, utilizando apache  + mysql
 
 # Desenvolvendo 
 - Iniciando o projeto com npm start
